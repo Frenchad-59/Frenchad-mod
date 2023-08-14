@@ -1,17 +1,15 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Burgundy",
-		"replaces": "Knight",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
+		"name": "Burgundian knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 120,
 		"requiredTech": "Chivalry",
-		"requiredResource": "Horse",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
 	}
 ]
