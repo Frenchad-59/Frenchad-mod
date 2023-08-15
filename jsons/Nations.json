@@ -30,9 +30,44 @@
 		"innerColor": [220,178,83],
 		"uniqueName": "Burgundy know-how",
 		"uniques": ["[+2 Gold , +2 Culture] for every [Wine]", "[+5 Culture, +5 Gold] <before the [Renaissance era]>"],
-		"cities": ["Dijon","Lyon","Q'Chovex","Beaune","Chalon-sur-Saône","Auxerre","Mâcon","Nevers","Sens",
+		"cities": ["Dijon","Lyon","Chovex","Beaune","Chalon-sur-Saône","Auxerre","Mâcon","Nevers","Sens",
 			"Autun","Cluny","Tournus","Semur-en-Auxois","Avallon","Nuits-Saint-Georges","Montbard","Tonnerre","Joigny","Châtillon-sur-Seine",
 			"Saulieu","Louhans","Givry","Paray-le-Monial","Bourbon-Lancy","Vézelay","Pommard","Le Creusot","Verdun-sur-le-Doubs","Couches",
 			"Lons-le-Saunier","Chagny","Cosne-Cours-sur-Loire","La Charité-sur-Loire","Montceau-les-Mines","Château-Chinon"]
-	}
+	},
+		{
+		"name": "Flanders",
+		"leaderName": "Baudouin the Good",
+		"adjective": ["Flemish"],
+		"startBias": ["Grassland", "Coast"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "From rich fertile plains to flourishing ports, Flanders emerges as a cultural and economic crossroads at the heart of Unciv. Immerse yourself in an era of artistic and commercial prosperity, where every work of art and every diplomatic agreement shapes your heritage.",
+		"startIntroPart2": "From thriving trading cities to artistic masterpieces that light up the horizon, Flanders opens the doors to an era of cultural brilliance. As a centre of trade and crafts, you have the chance to shape an unforgettable civilisation in the world of Unciv.",
+		
+		"declaringWar": "For Flanders and its greatness, we are writing our destiny through conquest and perseverance.",
+		"attacked": "Our swords are raised, our honour is at stake. Flanders defends its soil with pride and determination.",
+		"defeated": "Despite our valiant fight, defeat is a bitter pill to swallow, but we will learn from our mistakes and grow stronger.",
+		"introduction": "Greetings, potential friends. The people of Flanders welcome you with an open mind and mutual interest.",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Together, we are sealing a lasting peace agreement, putting an end to the conflicts that have overshadowed our lands. May we move forward into an era of mutual cooperation and prosperity.",
+		"tradeRequest": "I'm offering you a fruitful trade, where our riches will mingle in a profitable union for both of us.",
+
+		"outerColor": [24,41,69],
+		"innerColor": [230,184,34],
+		"uniqueName": "Flemish Trade",
+		"uniques": ["[+2 Gold, +2 Production] from [From all cities connected to capital]"],
+		"cities": ["Bruges","Gand","Anvers","Louvain","Malines","Courtrai","Ypres","Lille ","Tournai",
+			"Ostende","Alost","Bruxelles ","Mons","Dunkerque ","Douai ","Saint-Omer","Audenarde","Roulers","Courtrai",
+			"Bergues ","Lys-lez-Lannoy","Orchies","Armentières","Béthune","Valenciennes","Audruicq","Saint-Winoc","Cassel","Thourout"]
+	},
 ]
