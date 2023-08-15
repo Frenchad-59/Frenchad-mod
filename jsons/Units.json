@@ -2,6 +2,8 @@
 	{
 		"name": "Burgundian knight",
 		"unitType": "Mounted",
+		"uniqueTo": "Burgundy",
+		"replaces": "Knight",
 		"movement": 4,
 		"strength": 25,
 		"cost": 120,
